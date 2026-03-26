@@ -9,6 +9,6 @@ public class index {
 	@GetMapping("/")
 	@ResponseBody
 	public String helloWorld() {
-		return "ByeWorld";
+		return "ByeWorld!";
 	}
 }
